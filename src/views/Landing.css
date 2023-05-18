@@ -1,0 +1,18 @@
+
+@media (min-width: 992px) { 
+    .lbit-navbar {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+ }
+
+ @media (max-width: 992px) { 
+    .lbit-navbar {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+ }
