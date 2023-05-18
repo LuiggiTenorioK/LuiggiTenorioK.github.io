@@ -62,7 +62,7 @@ export default class Landing extends React.Component {
                     <Container className='p-5'>
                         <Row className='justify-content-center'>
 
-                            <Col className='col-8 my-4'>
+                            <Col className='col-12 col-lg-8 my-4'>
                                 <div className='fw-bolder fs-2 text-center mb-4 text-white'>
                                     Hi! I'm Luiggi. Nice to meet you.
                                 </div>
