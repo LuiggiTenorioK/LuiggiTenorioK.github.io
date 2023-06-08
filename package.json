@@ -22,7 +22,8 @@
     "deploy": "echo lbit.dev > ./build/CNAME && gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "analyze": "source-map-explorer 'build/static/js/*.js' --html > analyze.html"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -40,6 +41,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^5.0.0",
+    "source-map-explorer": "^2.5.3"
   }
 }
