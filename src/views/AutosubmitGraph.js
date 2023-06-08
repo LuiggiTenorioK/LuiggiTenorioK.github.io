@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useRef } from 'react';
 import ReactEcharts from "echarts-for-react";
 
 const echartOption = {
@@ -27,6 +27,8 @@ const echartOption = {
                 show: true,
                 position: "bottom"
             },
+            symbol: "path://M 20 0 h 760 a 20 20 0 0 1 20 20 v 160 a 20 20 0 0 1 -20 20 h -760 a 20 20 0 0 1 -20 -20 v -160 a 20 20 0 0 1 20 -20 z",
+            symbolSize: [200,50],
             itemStyle: {
                 color: "#fff",
                 borderColor: '#000'

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Col, Container, Nav, Navbar, Row } from 'react-bootstrap'
+import { Col, Container, Nav, Navbar, Row } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Landing.css'
 
@@ -42,7 +42,7 @@ const Landing = () => {
                             </div>
                         </Col>
                         <Col className='col-12 col-lg-6 text-center'>
-                            <img src={process.env.PUBLIC_URL + '/logo512.png'} style={{ height: "300px" }}></img>
+                            <img src={process.env.PUBLIC_URL + '/logo512.png'} style={{ height: "300px" }} alt='logo'></img>
                         </Col>
                     </Row>
                 </Container>
